@@ -1,0 +1,33 @@
+.how-it-work {
+    background-color: var(--white);
+    margin: 30px 0;
+}
+
+.how-it-work__div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    row-gap: 30px;
+}
+
+.how-it-work__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.how-it-work__title {
+    color: var(--gray-200);
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .how-it-work__div {
+        column-gap: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

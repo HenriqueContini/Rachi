@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/how-it-work.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/plan.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./img/logo.svg" alt="Logo Rachi">
+        <nav class="nav">
+            <a href="#" class="text text--header">Funcionalidades</a>
+            <a href="#" class="text text--header">App</a>
+            <a href="#" class="text text--header">Planos</a>
+            <a href="#" class="text text--header">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner container">
+            <div class="banner__content">
+                <h1 class="text-title">Rachi,<br>é tudo que você precisa<br> em um só lugar</h1>
+                <button class="button">Cadastrar-se</button>
+            </div>
+            <div class="banner__work-anywhere">
+                <img src="./img/work-from-anywhere.png" alt="Imagem trabalhe de qualquer lugar" class="work-anywhere__img">
+            </div>
+        </section>
+        <section class="how-it-work container">
+            <h2 class="text-title text--center">Como funciona</h2>
+            <div class="how-it-work__div">
+                <article class="how-it-work__content">
+                    <img src="./img/person.svg" class="how-it-work__img">
+                    <h3 class="how-it-work__title text--center">Crie conexões</h3>
+                    <p class="text text--center">Lorem ipsum dolor sit amet, consecteteu.</p>
+                </article>
+                <article class="how-it-work__content">
+                    <img src="./img/free.svg" class="how-it-work__img">
+                    <h3 class="how-it-work__title text--center">100% gratuito</h3>
+                    <p class="text text--center">Lorem ipsum dolor sit amet, consecteteu.</p>
+                </article>
+                <article class="how-it-work__content">
+                    <img src="./img/happy-face.svg" class="how-it-work__img">
+                    <h3 class="how-it-work__title text--center">Compartilhamento</h3>
+                    <p class="text text--center">Lorem ipsum dolor sit amet, consecteteu.</p>
+                </article>
+            </div>
+        </section>
+        <section class="app container">
+            <article class="app__content">
+                <h2 class="text-title">Baixe nosso app para desfrutar mais</h2>
+                <p class="text">Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+                <div class="app__download">
+                    <a href="#" class="app__link" aria-label="Baixe o app na Google Play"><img src="./img/download-android.svg" alt="Download Android"></a>
+                    <a href="#" class="app__link" aria-label="Baixe o app na App Store"><img src="./img/download-apple.svg" alt="Download Apple"></a>
+                </div>
+            </article>
+            <div class="app__notifications">
+                <img src="./img/app-image.png" class="app__img">
+            </div>
+        </section>
+        <section class="plan container">
+            <h2 class="text-title text--center">Nossos planos</h2>
+            <p class="text text--center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+            <div class="plans">
+                <div class="plan__card">
+                    <h4 class="plan__title text--center">Bronze</h4>
+                    <p class="plan__price text--center"><span class="text-title">R$ 28</span>/mês</p>
+                    <p class="text text--center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <button class="button">Assinar</button>
+                </div>
+                <div class="plan__card plan__card--recommended">
+                    <h4 class="plan__title plan__text--white text--center">Prata</h4>
+                    <span>Preferido</span>
+                    <p class="plan__price plan__text--white text--center"><span class="text-title plan__text--white">R$ 57</span>/mês</p>
+                    <p class="text text--gray text--center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <button class="button button--recommended">Assinar</button>
+                </div>
+                <div class="plan__card">
+                    <h4 class="plan__title text--center">Ouro</h4>
+                    <p class="plan__price text--center"><span class="text-title">R$ 94</span>/mês</p>
+                    <p class="text text--center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <button class="button">Assinar</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact container">
+            <h3 class="text-title text--center">Contato</h3>
+            <p class="text text--center text--gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+            <form class="contact__form">
+                <input type="email" class="contact__input text text--gray" aria-label="Insira seu e-mail" placeholder="exemplo@gmail.com">
+                <button class="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer container">
+        <p class="text-title text--center">Rachi - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

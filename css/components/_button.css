@@ -1,0 +1,25 @@
+.button {
+    background-color: var(--blue);
+
+    border-radius: 50px;
+    border: none;
+
+    box-shadow: var(--blue-shadow);
+    box-sizing: border-box;
+
+    color: var(--white);
+
+    font-family: var(--font-text);
+    font-size: 18px;
+
+    padding: 16px 32px;
+}
+
+.button--recommended {
+    box-shadow: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(19, 125, 224);
+}

@@ -1,0 +1,64 @@
+@import url(./components/_button.css);
+
+:root {
+    --blue: #0F9AFE;
+    --blue-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+
+    --white: #FFFFFF;
+    --white-200: #EFF8FF;
+    --white-400: #EFF8FF;
+
+    --gray: #6E7275;
+    --gray-light: #DBDBDB;
+    --gray-200: #293145;
+    
+    --font-title: 'Sora', sans-serif;
+    --font-text: 'Inter', sans-serif;
+    
+    --padding-mobile: 30px 30px;
+    --padding-tablet: 20px 40px;
+    --padding-desktop: 20px 100px;
+}
+
+.text {
+    color: var(--gray);
+
+    font-family: var(--font-text);
+    font-size: 16px;
+
+    line-height: 26px;
+}
+
+.text--gray {
+    color: var(--gray-light);
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text-title {
+    color: var(--gray-200);
+
+    font-family: var(--font-title);
+    font-weight: 600;
+    font-size: 32px;
+
+    line-height: 45px;
+}
+
+.container {
+    padding: var(--padding-mobile);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: var(--padding-tablet);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: var(--padding-desktop);
+    }
+}
